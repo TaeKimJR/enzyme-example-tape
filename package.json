@@ -1,0 +1,32 @@
+{
+  "name": "enzyme-example-tape",
+  "version": "0.0.1",
+  "description": "Example project with React + Enzyme + Tape",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "node -r @babel/register -r jsdom-global/register ./test/foo-test.js"
+  },
+  "keywords": [
+    "enzyme",
+    "react",
+    "tape",
+    "example"
+  ],
+  "author": "Tae Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.1.6",
+    "@babel/preset-env": "7.1.6",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "7.0.0",
+    "enzyme": "3.7.0",
+    "enzyme-adapter-react-16": "1.7.0",
+    "jsdom": "13.0.0",
+    "jsdom-global": "3.0.2",
+    "tape": "4.9.1"
+  },
+  "dependencies": {
+    "react": "16.4.0",
+    "react-dom": "16.4.0"
+  }
+}
