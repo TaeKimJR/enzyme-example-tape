@@ -1,11 +1,11 @@
 import test from 'tape';
 import React from 'react';
-import { shallow, mount, configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import { shallow, mount } from 'enzyme';
+import configure from 'enzyme-adapter-react-helper';
 
 import Foo from '../src/foo';
 
-configure({ adapter: new Adapter() });
+configure();
 
 test('shallow', (t) => {
     const wrapper = shallow(<Foo />);
